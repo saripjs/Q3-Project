@@ -3,196 +3,259 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/96d99b0b-6175-4528-92c7-fe47c5584b71/d8429tx-6640baa2-898b-455a-89e9-26fabc8a71f1.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzk2ZDk5YjBiLTYxNzUtNDUyOC05MmM3LWZlNDdjNTU4NGI3MVwvZDg0Mjl0eC02NjQwYmFhMi04OThiLTQ1NWEtODllOS0yNmZhYmM4YTcxZjEuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.64kKiFh2f6vjV0hcL5zmPnW4vDcVbrYV-e4XLHu3jIQ);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			color: black;]
+			font-family: Roboto;
 
-	<title>Movie Reviews</title>
+		}
+		h2 {
+			font-family: 	Playfair Display;
+			color: goldenrod;
+			text-align: center;
+		}
+		.Drake {
+			background-color: black;
+			color: whitesmoke;
+			border-radius: 7px
+
+		}
+		h4 {
+			font-family: 	Playfair Display;
+			color: goldenrod;
+		}
+	</style>
+	<title></title>
 </head>
 
-<style type="text/css">
-
-	body{
-		text-align: center;
-		font-family: Oswald;
-		background-image: 	url(https://img.freepik.com/free-vector/gradient-zoom-effect-background_23-2149694913.jpg);
-		background-attachment: 	fixed;
-		background-size: 	1300px;
-	}
-
-	.container{
-		width: 	800px;
-	}
-
-	img{
-		width: 200px;
-	}
-
-	span{
-		color: gold;
-	}
-
-	footer{
-		background-color: gray;
-	}
-
-	.rounded-pill{
-		width: 100px;
-		height: 100px;
-	}
-
-	
-</style>
-
-<body>
-	<nav class="navbar navbar-expand-sm bg-secondary navbar-light">
+<body class="m-0">
+	<nav class="navbar navbar-expand-lg navbar-dark">
 		<div class="container-fluid">
+			<a class="navbar-brand" href="https://us.octobersveryown.com/">
+				<img src="https://1000logos.net/wp-content/uploads/2017/08/OVO-Logo.png" height="50px">
+			</a>
+			<div class="collapse navbar-collapse" id="mynavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Other artists</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Kanye_West">Kanye West (Ye)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/The_Weeknd">Abel Tesfaye (The Weeknd)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/J._Cole">Jermaine Cole(J. Cole)</a></li>
+
+						</ul>
+					</li>
+				</ul>
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">Albums</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/So_Far_Gone_(mixtape)">So Far Gone (2009)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Thank_Me_Later">Thank Me Later (2010)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Take_Care_(album)">Take Care (2011)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Nothing_Was_the_Same">Nothing Was The Same (2013)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/If_You%27re_Reading_This_It%27s_Too_Late">If You're Reading this, Its too late (2015)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Views_(album)">Views (2016)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/More_Life">More Life (2017)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Scorpion_(Drake_album)">Scorpion (2018)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Dark_Lane_Demo_Tapes">Dark Lane Demo Tapes (2020)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Certified_Lover_Boy">Certified Lover Boy (2021)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/Honestly,_Nevermind">Honestly, Nevermind (2022)</a></li>
+							<li><a class="dropdown-item" href="https://en.wikipedia.org/wiki/For_All_the_Dogs">For All The Dogs (2023)</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
 			<ul class="navbar-nav">
-				<li>
-					<a class="navbar-brand" href="https://w0.peakpx.com/wallpaper/759/305/HD-wallpaper-marvel-logo-american-comic-books-cinematic-universe-films-hollywood-logos-spider-man-superhero-the-avengers.jpg"><img src="https://w0.peakpx.com/wallpaper/759/305/HD-wallpaper-marvel-logo-american-comic-books-cinematic-universe-films-hollywood-logos-spider-man-superhero-the-avengers.jpg" class="rounded-pill"></a>
-				</li>
-					
 				<li class="nav-item">
-					<a class="nav-link active" href="#home">HOME</a>
+					<a class="nav-link" href="https://en.wikipedia.org/wiki/Drake_(musician)">About the artist</a>
 				</li>
-
 				<li class="nav-item">
-					<a class="nav-link" href="#movies">MOVIES</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="#genre">GENRE</a>
-				</li>
-
-				<li class="nav-item">
-					<a class="nav-link" href="https://saripjs.github.io/Q3-Seatwork2/">CONTACT US</a>
+					<a class="nav-link" href="https://en.wikipedia.org/wiki/Young_Money_Entertainment">About the label</a>
 				</li>
 			</ul>
 		</div>
 	</nav>
-	<div class="container">
+	<br>
+	<hr>
+	<br>
+
+	<div class="container-rounded-">
 		<div class="row">
-			<div class="col-lg-12">
-				<img src="https://static.wikia.nocookie.net/marveldatabase/images/e/e1/The_Marvel_Universe.png/revision/latest?cb=20110513164401" width="400px">
-				<h1>Top 3 Best Marvel Movies</h1>
+			<div class="col-lg-8">
+				<h2><strong>Aubrey Graham</strong></h2>
+				<div class="Drake">
+					<ul class="nav nav-tabs" role="tablist">
+						<li class="nav-item">
+							<a href="#info" class="nav-link" data-bs-toggle="tab">The Artist</a>
+						</li>
+						<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown">Listen</a>
+								<ul class="dropdown-menu">
+								<li><a class="dropdown-item nav-link" href="#album" data-bs-toggle="tab">
+									So Far Gone
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album2"  data-bs-toggle="tab">
+									Thank Me Later
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album3" data-bs-toggle="tab">
+									Take Care
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album4" data-bs-toggle="tab">
+									Nothing Was The Same
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album5" data-bs-toggle="tab">
+									If Youre Reading This, Its Too Late
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album6" data-bs-toggle="tab">
+									Views
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album7" data-bs-toggle="tab">
+									More Life
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album8" data-bs-toggle="tab">
+									Scorpion
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album9" data-bs-toggle="tab">
+									Dark Lane Demo Tapes
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album10" data-bs-toggle="tab">
+									Certified Lover Boy
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album11" data-bs-toggle="tab">
+									Honestly, Nevermind
+								</a></li>
+								<li><a class="dropdown-item nav-link" href="#album12" data-bs-toggle="tab">
+									For All The Dogs
+								</a></li>
+								</ul>
+						</li>
+					<li class="nav-item">	
+						<a href="#info2" class="nav-link" data-bs-toggle="tab">Accolades</a>
+					</li>
+					</ul>
+
+					<div class="tab-content">
+						<div id="info" class="container tab-pane">
+							<p>
+								Drake, whose full name is Aubrey Drake Graham, is a Canadian rapper, singer, songwriter, actor, and entrepreneur. He first gained fame as an actor on the teen drama television series "Degrassi: The Next Generation" before pursuing a career in music. Drake's music blends elements of hip-hop, R&B, and pop, with emotionally introspective lyrics often reflecting on relationships, fame, and personal growth.
+
+								<br>
+								<hr>
+
+								He rose to prominence with his mixtapes, particularly "So Far Gone," which included hits like "Best I Ever Had." His debut studio album, "Thank Me Later" (2010), debuted at number one on the US Billboard 200. Since then, Drake has released several critically acclaimed albums, including "Take Care" (2011), "Nothing Was the Same" (2013), "Views" (2016), "Scorpion" (2018), and "Certified Lover Boy" (2021).
+
+								<br>
+								<hr>
+
+								Drake holds numerous records in the music industry, including the most charted songs (over 230) by any solo artist on the Billboard Hot 100. He has won several Grammy Awards and has been recognized for his impact on music and culture. Aside from music, Drake has ventured into business with his own record label, OVO Sound, and has partnerships with brands like Nike, among others. He continues to be a dominant force in contemporary music, known for his catchy melodies, versatile style, and ability to consistently produce chart-topping hits.
+							</p>
+						</div>
+						<div id="info2" class="container tab-pane">
+							<ul>
+								<h4>Record-Breaking Hits:</h4>
+									<li>Drake holds the record for the most charted songs (over 230) by any solo artist on the Billboard Hot 100</li>
+									<li>He has the most top 10 hits on the Billboard Hot 100 chart.</li>
+									<li>His song "God's Plan" held the record for the most streams in a single day on Spotify.</li>
+									<li>"In My Feelings" became the first song to simultaneously top the Billboard Hot 100, Hot R&B/Hip-Hop Songs, and Hot Rap Songs charts.</li>
+									<br>
+								<h4>Grammy Awards:</h4>
+									<li>Drake has won multiple Grammy Awards, including Best Rap Album for "Take Care" and "Views."</li>
+									<li>He has received numerous nominations across various categories.</li>
+									<br>
+								<h4>Album Success:</h4>
+									<li>"Thank Me Later" (2010) - His debut studio album debuted at number one on the US Billboard 200.</li>
+									<li>"Take Care" (2011) - Grammy-winning album and commercial success.</li>
+									<li>"Nothing Was the Same" (2013) - Another critically acclaimed and commercially successful album.</li>
+									<li>"Views" (2016) - Spent multiple weeks at number one on the Billboard 200.</li>
+									<li>"Scorpion" (2018) - Debuted at number one and broke streaming records.</li>
+									<li>"Certified Lover Boy" (2021) - Another successful album, debuting at number one.</li>
+									<br>
+								<h4>Singles:</h4>
+									<li>"Best I Ever Had," "Find Your Love,"
+									 "Hotline Bling," "One Dance," "Nice for What," "In My Feelings," and many more have been chart-topping hits.</li>
+									 <br>
+								<h4>Billboard Records:</h4>
+									<li>Drake holds numerous Billboard records, including:</li>
+									<li>Most top 10 hits on the Billboard Hot 100.</li>
+									<li>Most charted songs by a solo artist.</li>
+									<li>Most simultaneously charted Hot 100 songs in a single week.</li>
+									<li>Most Hot 100 debuts in a week.</li>
+							</ul>
+						</div>
+						<div id="album" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1LShhEEKRT5MNPcO7jtYHh?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+							</iframe>
+						</div>
+						<div id="album2" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6agmeioaDOBupymziJihgB?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album3" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6X1x82kppWZmDzlXXK3y3q?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+							</iframe>
+						</div>
+						<div id="album4" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/6X1x82kppWZmDzlXXK3y3q?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album5" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/0ptlfJfwGTy0Yvrk14JK1I?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album6" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/40GMAhriYJRO1rsY4YdrZb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album7" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/40GMAhriYJRO1rsY4YdrZb?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album8" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1ATL5GLyefJaxhQzSPVrLX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album9" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/1ATL5GLyefJaxhQzSPVrLX?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album10" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3SpBlxme9WbeQdI9kx7KAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album11" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3SpBlxme9WbeQdI9kx7KAV?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+						<div id="album12" class="container tab-pane"><br>
+							<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4czdORdCWP9umpbhFXK2fW?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<img src="https://i.pinimg.com/736x/b5/50/f7/b550f78b044a317d092a393b1752fa26.jpg" class="rounded" width="350px">
 			</div>
 		</div>
-
-
-		<div class="container mt-3">
-			<table class="table table-striped table-hover	">
-				<thead>
-				<tr>
-					<th class="col-lg-4 bg-primary text-white"><strong>Movie</strong>
-					<th class="col-lg-5 bg-primary text-white"><strong>Review</strong>
-					<th class="col-lg-3 bg-primary text-white"><strong>Credits</strong>
-				</tr>
-				</thead>
-				<tbody>
-
-				<tr>
-					<td class="bg-dark"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzHzbDjeKjKCTIblqu90DSGGGohZW8exm3QtOF5AZmtA&s">
-					<br>
-					<strong>1. Avengers:Endgame</strong></td>
-						<td class="bg-secondary">
-						"Best conclusion of a film since the Harry Potter movie series. This film perfectly wraps up the storylines and character arcs of the mcu since iron man 1. The last battle looks like it is straight out of a comic book and I loved how they concluded it with iron man’s last words being “i am iron man”which is a reference that not only ends his character arc correctly, it also ends the first ten years of the mcu in a very intelligent way and it is truly satisfying. I like how they travel back in time to certain mcu films in the past to really show us how these characters have grown and we have grown watching those mcu films at the time it came out in theatres. I am grateful to experience this masterpiece and a marvellous end to my childhood. It has been such a great journey and it will never be forgotten, I can’t wait for more superhero flicks like this. I love this movie 3000."
-						<br>
-						<p class="text-warning">5/5 Amazing!</p>
-						</td>
-						<td class="bg-secondary">
-						Directed by : Russo brothers 
-						<br>
-						Main cast: Robert Downey jr.( Iron Man)
-						<br>
-		                Chris Evans  (Captain America )  Chris Hemsworth (Thor )  
-		                <br>
-						Brie Larson (Captain Marvel) 
-						<br>
-						Scarlett Johansson (Black widow)
-						<br>
-						Paul Rudd ( Ant Man)
-						<br>
-						Jeremy Renner ( Clint Barton)
-						<br>
-						Josh Brolin (Thanos )
-						</td>
-				</tr>
-
-				<tr>
-						<td class="col-lg-5 bg-dark"><img src="https://m.media-amazon.com/images/M/MV5BZWMyYzFjYTYtNTRjYi00OGExLWE2YzgtOGRmYjAxZTU3NzBiXkEyXkFqcGdeQXVyMzQ0MzA0NTM@._V1_FMjpg_UX1000_.jpg">
-						<br>
-						<strong>2. Spiderman: No way home</strong></td>
-						<td class="col-lg-5 bg-secondary">
-							Without giving too much away …No Way Home has a nice balance of heart felt emotional moments and comedy, Filled with great action scenes and visually beautiful effects. loved every second of it. It really pays homage to each spider man that came before in such a great way. My favorite aspect of the movie is watching the 3 Peter Parker’s  interact. It was amazing to see how they share this empathic understanding of what it means to be spider man down to the deepest levels, and it’s extremely  emotional to watch. You get a glimpse of what their lives were like after we last saw them on screen, and that really made this movie so special. Tom does such an 	amazing job making you laugh but also pull at your heart strings. You can see how much Tobey’s character has grown and matured and how his outlook on life has changed. Andrew’s Peter Parker is still going through it and still harbors a lot of pain…was really sad to see that. I loved this movie from beginning to end. It was a great closing chapter for the past spider men. I’m excited to see what they do with the next movie possibly introducing venom.
-						<br>
-							<p class="text-warning"></p>
-						</td>
-						<td class="bg-secondary" class="col-lg-2 bg-secondary">
-							<span>Director</span>
-							<br>
-							Jon Watts
-							<br>
-							<span>Writers</span>
-							<br>
-							Chris McKenna
-							Erik Sommers
-							Stan Lee
-							<br>
-							<span>Stars</span>
-							<br>
-							Tom Holland 	
-							Zendaya 
-							Benedict Cumberbatch
-						</td>
-				</tr>
-				<tr>
-							<td class="col-lg-5 bg-dark"><img src="https://upload.wikimedia.org/wikipedia/en/3/33/Guardians_of_the_Galaxy_%28film%29_poster.jpg">
-							<br>
-							<strong>2. Guardian of the Galaxy Vol. 1</strong></td>
-							<td class="col-lg-5 bg-secondary">
-								The movie is an eye-opener to the MCU, dragging the attention away from Earth's Mightiest Heroes for a while and bringing up a fresh and robust team-up in the cosmic arena of comic book movies, a genre rarely explored before this releases.
-								James Gunn nails the job of connecting C-Lister heroes that are now pop culture icons (especially star-lord).
-								Great humour, visuals, action, music, score and cast performances go hand in hand with the direction. It also holds a great imdb score of 8.1.
-								The most eye opening characters are star-lord, Yondu, Drax and Thanos who terrifies his daughters and the antagonist Ronan.
-								Though it falls prey to the MCU villain problem, it has a good MacGuffin in the form of an Orb.
-								It also enlists family values in a unique way uncommon in the genre of comic book movies and has some rude comments which are great!
-							</td>
-							<td class="col-lg-2 bg-secondary">
-							<span>Director</span>
-							<br>
-							James Gunn
-							<br>
-							<span>Writers</span>
-							<br>
-							James Gunn	
-							Nicole Perlman
-							Dan Abnett
-							<br>
-							<span>Stars</span>
-							<br>
-							Chris Pratt
-							Vin Diesel	
-							Bradley Cooper
-							</td>
-					</tr>
-				</tbody>
-				</table>
-				<br>	
-				<form>
-					<div class="text mb-3">
-						<input type="text" class="form-control mb-2" placeholder="Search">
-						<button class="btn btn-warning" type="button">Search</button>
-					</div>
+	</div>
+	<hr>
+		
+		<div class="row">
+			<div class="col-lg-3"></div>
+			<div class="col-lg-6	">
+				<form class="d-flex">
+					<input class="form-control me-2" type="text" placeholder="Search for more!">
+					<button class="btn btn-warning" type="button">Enter</button>
 				</form>
-			<footer>
-			<h1>Sources</h1>
-			<a href="https://www.imdb.com/title/tt4154796/">https://www.imdb.com/title/tt4154796/</a>
-			<br>
-			<a href="https://www.imdb.com/title/tt10872600/">https://www.imdb.com/title/tt10872600/</a>
-			<br>
-			<a href="https://www.imdb.com/title/tt2015381/">https://www.imdb.com/title/tt2015381/</a>
-			</footer>
+			</div>
+		</div>
+		<br>
 
-</body>
-</html>
+		</body>
+		</html>
